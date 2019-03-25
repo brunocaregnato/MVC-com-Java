@@ -1,0 +1,20 @@
+Prefeituras Municipais de todo o país precisam fornecer dados sobre a coleta de resíduos sólidos e produzir indicadores.
+O trabalho envolve produzir um protótipo de aplicação para atualizar dados e produzir indicadores a partir destes dados. 
+
+O projeto deve usar o padrão MVC para organizar as classes do sistema e um padrão específico para implementar persistência (DAO).
+
+Funcionalidades do Sistema:
+	->Cadastrar municípios
+	->Informar dados sobre a coleta de resíduos
+	->Produzir indicadores
+		.Geração per capita de resíduos sólidos por município
+		.Geração per capita/dia/mês; comparação com dado nacional e/ou estadual
+
+1ª Etapa do projeto:
+	.Implementar o cadastramento de municípios com a informação de código, nome, população total e população urbana.
+	.Separar o projeto em pacotes (model, view, controller, persistencia)
+	.Persistencia deve ser implementada usando-se o padrão DAO (sugestão: usar serialização)
+
+2ª Etapa do projeto:
+	.Implementar os indicadores
+	.Visualizações devem ser observadores de dados que influenciam os indicadores
