@@ -4,3 +4,7 @@ Aqui um pequeno projeto para Universidade de Caxias do Sul que trabalha com o pa
 
 EN
 Here is a small project by the University of Caxias do Sul that works with the MVC (Model - View - Controller) standard in Java.
+
+Alunos/Students: Bruno e Venicius
+
+Github Venicius: https://github.com/venicius12
